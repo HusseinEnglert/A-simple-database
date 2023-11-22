@@ -1,2 +1,2 @@
-# A simple database
+# A simple database with python
  
