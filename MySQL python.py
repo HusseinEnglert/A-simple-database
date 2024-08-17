@@ -3,10 +3,10 @@ import getpass
 
 senha = getpass.getpass("Qual é sua senha ?")
 con = mysql.connector.connect(
-    host = 'localhost',
-    user = 'root',
+    host = 'seu_host',
+    user = 'seu_usuario',
     password = senha,
-    database = 'bdpython',
+    database = 'seu_banco_de_dados',
 )
 cursor = con.cursor()
 try:
