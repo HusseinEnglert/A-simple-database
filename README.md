@@ -4,9 +4,9 @@ This Python script uses the `mysql.connector` library to create and manipulate t
 
 ## Features
 
-1. Table Creation:Creates a books table that stores information about books, such as name, author, publication year, and a foreign key publisher_id that relates to the publisher table.Creates a publisher table that stores the names of publishers.
-2. Data Insertion:Inserts sample data into the books table.Inserts publisher names into the publisher table.
-3. SQL Queries:Selects and displays books published before the year 2000.Performs a join (JOIN) between the books and publisher tables, displaying the book's name, author, and corresponding publisher.
+1. Table Creation: Creates a books table that stores information about books, such as name, author, publication year, and a foreign key publisher_id that relates to the publisher table.Creates a publisher table that stores the names of publishers.
+2. Data Insertion: Inserts sample data into the books table.Inserts publisher names into the publisher table.
+3. SQL Queries: Selects and displays books published before the year 2000.Performs a join (JOIN) between the books and publisher tables, displaying the book's name, author, and corresponding publisher.
 
 ## Prerequisites
 
@@ -34,11 +34,10 @@ con = mysql.connector.connect(
     password=password,
     database='your_database',)
 '''
+
 4. Run the script:
  - In the terminal, run the Python script:
-```Bash
-python script_name.py
-```
+`` python script_name.py``
 5. Enter your MySQL password:
  - When prompted, enter the MySQL user password.
 
