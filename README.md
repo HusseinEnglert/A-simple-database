@@ -1,2 +1,2 @@
-# Banco de dados MySQL com Python
+# MySQL database with python
 
