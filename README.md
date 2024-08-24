@@ -33,8 +33,7 @@ con = mysql.connector.connect(
     user='your_user',
     password=password,
     database='your_database',)
-'''
-
+```
 4. Run the script:
  - In the terminal, run the Python script:
 `` python script_name.py``
